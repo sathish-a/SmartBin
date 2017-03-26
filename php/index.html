@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title>Smart Bin Simulator</title>
+</head>
+<body>
+	<form action="smart.php" method="POST">
+		BinId:<input type="text" name="binid"/><br>
+		Function:<br>
+		<input type="radio" name="function" value="ADD_BIN" checked/> ADD_BIN (To add Bin)<br>
+		<input type="radio" name="function" value="UPDT_LEV" /> UPDT_LEV (To Update the value of Bin)<br>
+		<input type="radio" name="function" value="UPDT_LOC" /> UPDT_LOC (To Update the Location of Bin)<br>
+		Bin Level:<input type="text" name="level"/><br>
+		Lat:<input type="text" name="lat"/><br>
+		Lng:<input type="text" name="lng"/><br>
+		<input type="submit" value="Submit" />
+	</form>
+</body>
+</html>

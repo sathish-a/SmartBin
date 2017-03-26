@@ -23,6 +23,7 @@ import com.google.firebase.database.FirebaseDatabase;
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback ,GoogleMap.OnMarkerClickListener {
 
     private static final String TAG = "Smart Bin" ;
+    
     private GoogleMap mMap;
     DatabaseReference binRef;
     ChildEventListener childEventListener = new ChildEventListener() {
